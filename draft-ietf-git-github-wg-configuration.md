@@ -1,7 +1,7 @@
 ---
 docname: draft-ietf-git-github-wg-configuration
 title: GitHub Configuration for IETF Working Groups
-abbrev: GitHub Configuration
+abbrev: WG GitHub Configuration
 category: info
 
 ipr: trust200902
