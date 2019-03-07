@@ -35,10 +35,11 @@ informative:
 
 --- abstract
 
-The use of GitHub in IETF working group processes is increasing. This document describes
-possible uses and conventions for working groups which are considering starting to use
-GitHub. It does not mandate any processes, and does not intend to change the processes
-used by current working groups.
+The use of GitHub in IETF working group processes is increasing.
+This document describes possible uses and conventions for working
+groups which are considering starting to use GitHub. It does not
+mandate any processes, and does not require changes to the processes
+used by current and future working groups not using GitHub.
 
 Discussion of this document takes place on the ietf-and-github mailing list
 (ietf-and-github@ietf.org), which is archived at
@@ -53,6 +54,10 @@ Many IETF working groups and participants make use of GitHub in different ways a
 their work on IETF documents. Some others are interested in having their working groups
 use GitHub to facilitate the development of working group documents, but they are
 unfamiliar with how to get started or they are unclear about which conventions to follow.
+Some other working groups use or plan to use other other code
+repository services such at GitLab and Bitbucket, which have
+different properties than GitHub.
+
 
 This document proposes a set of administrative processes and conventions for IETF working
 groups to use if they chose as a working group to use GitHub to facilitate their work. The
@@ -127,8 +132,6 @@ personnel work the same for the organizations that were created on their own.
 When there are personnel changes in the area or the working group, those changes would be
 reflected in the GitHub organization.
 There should likely be an API to specify that there were personnel changes.
-\[\[ Need to do a bit of research on how to do this
-through the API, if possible. \]\]
 
 ## Working Group Closing
 
