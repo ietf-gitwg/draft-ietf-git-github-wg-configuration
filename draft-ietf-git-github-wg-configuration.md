@@ -55,7 +55,7 @@ their work on IETF documents. Some others are interested in having their working
 use GitHub to facilitate the development of working group documents, but they are
 unfamiliar with how to get started or they are unclear about which conventions to follow.
 Some other working groups use or plan to use other other code
-repository services such at GitLab and Bitbucket, which have
+repository services such as GitLab and Bitbucket, which have
 different properties than GitHub.
 
 
