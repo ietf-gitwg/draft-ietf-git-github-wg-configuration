@@ -6,7 +6,7 @@ category: info
 
 ipr: trust200902
 area: General
-workgroup: git
+workgroup: GIT Working Group
 keyword: Internet-Draft
 
 stand_alone: yes
