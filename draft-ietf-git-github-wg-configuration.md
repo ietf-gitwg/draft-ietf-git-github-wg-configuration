@@ -159,7 +159,7 @@ As an incremental step, this document proposes that there be a facility in the D
 interface to allow an administrator of an ietf-&lt;wgname&gt;-wg organization to request
 the creation of a new repository within that organization for a single document. The
 document authors would be identified as collaborators. The repository name would be the
-draft name. Ideally, the repository would be configured with an skeleton draft file,
+draft name. Ideally, the repository would be configured with a skeleton draft file,
 default CONTRIBUTING, LICENSE, and README files, and continuous integration support, in
 the vein of &lt;https://github.com/martinthomson/i-d-template&gt;. 
 
