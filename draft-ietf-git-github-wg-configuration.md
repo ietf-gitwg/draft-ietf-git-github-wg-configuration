@@ -202,8 +202,6 @@ These should be backed up as well; the GitHub API allows for this.
 The IETF Secretariat should back up those at the same time as it is backing up the GitHub
 repositories.
 
-{{?I-D.thomson-github-bcp}} has more discussion of backing up and archiving.
-
 # Security Considerations
 
 An attacker who can change the contents of Internet Drafts, particularly late in a working
