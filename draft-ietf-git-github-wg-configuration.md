@@ -197,9 +197,9 @@ name on a server maintained by the IETF Secretariat. Every hour, a service will 
 "git fetch" command on every GitHub repository that is being tracked. The mirror
 repository will allow anyone to read the repository.
 
-Note that this system will not back up GitHub issues or pull requests. It is very likely
-that these should be backed up as well. The GitHub API possibly allows this; if so, the
-IETF Secretariat should back up those at the same time as it is backing up the GitHub
+Note that this system will not back up GitHub issues or pull requests.
+These should be backed up as well; the GitHub API allows for this.
+The IETF Secretariat should back up those at the same time as it is backing up the GitHub
 repositories.
 
 {{?I-D.thomson-github-bcp}} has more discussion of backing up and archiving.
