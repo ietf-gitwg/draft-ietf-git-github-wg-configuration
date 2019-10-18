@@ -183,6 +183,11 @@ information as well (see
 It would be useful if the user data in the Datatracker could list (at a minimum) the
 GitHub account of the user so that their contributions could be tracked more easily.
 
+Some working groups choose to have more than one draft in a repository, particularly
+for drafts that are tightly linked with significant cross-references.
+In such a case, the README for the repository needs to say that clearly so that
+a participant understands that changes might be made to multiple drafts at once.
+
 ## Backing Up and Archiving GitHub Content
 
 IETF working group mailing lists are automatically backed up by the IETF Secretariat, and
