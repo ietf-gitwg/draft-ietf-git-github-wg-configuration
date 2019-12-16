@@ -163,7 +163,7 @@ draft name. Ideally, the repository would be configured with a skeleton draft fi
 default CONTRIBUTING, LICENSE, and README files, and continuous integration support, in
 the vein of &lt;https://github.com/martinthomson/i-d-template&gt;.
 Performing this step would automatically inform the IETF Secretariat that this repository should
-be being backed up as described in {{backup}}.
+be backed up as described in {{backup}}.
 
 
 # Working Group Process
@@ -225,6 +225,5 @@ adopted.
 This document has no IANA actions.
 
 --- back
-
 
 
