@@ -101,7 +101,7 @@ organization, the following process would be initiated:
 
 1. Create a GitHub organization for the working group.
 
-2. Name the organization as ietf-&lt;wgname&gt;-wg
+2. Name the organization as ietf-wg-&lt;wgname&gt;
 
 3. Initialize the organization by designating the IETF Secretariat and the area directors
 in the working group's area as owners. If the responsible AD for the working group is from
@@ -140,7 +140,7 @@ the owner list would be returned to its initial composition. The organization su
 the repositories within the organization would be updated to indicate that they are no
 longer under development.
 
-## Creation of Document Repository
+## Creation of Document Repository {#repo_create}
 
 There are many different scenarios and configurations where it might be useful to have
 automation and/or established administrative conventions for repositories within WG
@@ -156,12 +156,14 @@ organizations, such as:
    - Creating a new repository that contains multiple drafts
 
 As an incremental step, this document proposes that there be a facility in the Datatracker
-interface to allow an administrator of an ietf-&lt;wgname&gt;-wg organization to request
+interface to allow an administrator of an ietf-wg-&lt;wgname&gt; organization to request
 the creation of a new repository within that organization for a single document. The
 document authors would be identified as collaborators. The repository name would be the
 draft name. Ideally, the repository would be configured with a skeleton draft file,
 default CONTRIBUTING, LICENSE, and README files, and continuous integration support, in
-the vein of &lt;https://github.com/martinthomson/i-d-template&gt;. 
+the vein of &lt;https://github.com/martinthomson/i-d-template&gt;.
+Performing this step would automatically inform the IETF Secretariat that this repository should
+be backed up as described in {{backup}}.
 
 
 # Working Group Process
@@ -188,7 +190,7 @@ for drafts that are tightly linked with significant cross-references.
 In such a case, the README for the repository needs to say that clearly so that
 a participant understands that changes might be made to multiple drafts at once.
 
-## Backing Up and Archiving GitHub Content
+## Backing Up and Archiving GitHub Content {#backup}
 
 IETF working group mailing lists are automatically backed up by the IETF Secretariat, and
 the archives are publicly available. All official interactions in a WG must be archived.
@@ -207,6 +209,10 @@ These should be backed up as well; the GitHub API allows for this.
 The IETF Secretariat should back up those at the same time as it is backing up the GitHub
 repositories.
 
+The steps in {{repo_create}} inform the IETF Secretariat which repositories should be backed up.
+Working group chairs and area directors should also be able to request that the IETF
+Secretariat back up additional repositories that are related to IETF working groups.
+
 # Security Considerations
 
 An attacker who can change the contents of Internet Drafts, particularly late in a working
@@ -219,6 +225,5 @@ adopted.
 This document has no IANA actions.
 
 --- back
-
 
 
