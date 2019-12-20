@@ -167,9 +167,9 @@ be backed up as described in {{backup}}.
 
 ## Listing Related Repositories
 
-The IETF Datatracker should allow working group chairs to add links to repositories (for GitHub and
-other repository services) on the working group "About" page under "Additional URLs".
-This feature is already under development.
+The IETF Datatracker should allow users to add links to repositories (for GitHub and
+other repository services) on working group, document, and user pages.
+At the time of this writing this feature was under development.
 
 
 # Working Group Process
