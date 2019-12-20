@@ -165,6 +165,12 @@ the vein of &lt;https://github.com/martinthomson/i-d-template&gt;.
 Performing this step would automatically inform the IETF Secretariat that this repository should
 be backed up as described in {{backup}}.
 
+## Listing Related Repositories
+
+The IETF Datatracker should allow working group chairs to add links to repositories (for GitHub and
+other repository services) on the working group "About" page under "Additional URLs".
+This feature is already under development.
+
 
 # Working Group Process
 
