@@ -169,7 +169,7 @@ be backed up as described in {{backup}}.
 
 The IETF Datatracker should allow users to add links to repositories (for GitHub and
 other repository services) on working group, document, and user pages.
-This feature is already under development.
+At the time of this writing this feature was under development.
 
 
 # Working Group Process
