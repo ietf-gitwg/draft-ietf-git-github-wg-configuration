@@ -25,13 +25,10 @@ author:
     organization: ICANN
     email: paul.hoffman@icann.org
 
-normative:
+informative:
   git-protocol:
     title: "Git on the Server - The Protocols"
     target: "https://git-scm.com/book/en/v2/Git-on-the-Server-The-Protocols#The-Git-Protocol"
-
-informative:
-
 
 --- abstract
 
