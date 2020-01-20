@@ -54,23 +54,22 @@ Many IETF working groups and participants make use of GitHub in different ways a
 their work on IETF documents. Some others are interested in having their working groups
 use GitHub to facilitate the development of working group documents, but they are
 unfamiliar with how to get started or they are unclear about which conventions to follow.
-Some other working groups use or plan to use other other code
+Some other working groups use or plan to use other code
 repository services such as GitLab and Bitbucket, which have
 different properties than GitHub.
 
-
 This document proposes a set of administrative processes and conventions for IETF working
-groups to use if they chose as a working group to use GitHub to facilitate their work. The
+groups to use if they choose as a working group to use GitHub to facilitate their work. The
 proposals in this document are not directed at working groups or individuals that are
 already using GitHub to do IETF work. Practices vary among existing working groups and
 some of them are not consistent with the conventions proposed here: that is fine. The goal
 of the proposals in this document is not to require uniformity in current practice, but to
-help working groups to get started using GitHub in a uniform way if they want to.
+help working groups get started using GitHub in a uniform way if desired.
 
 The document is meant to spur discussion in the IETF community. If there proves to be
 rough consensus in the community in support of the proposals in this document, the
 functional requirements would need to be discussed with the IETF Tools Team, and the IETF
-Secretariat who would need to support various pieces of what is proposed here.
+Secretariat who would need to support various pieces of what is proposed herein.
 
 # Administrative Process and Conventions
 
@@ -86,7 +85,7 @@ In this document the question of whether processes should be manual or automated
 deliberately left ambiguous since the first question that should be asked is whether this
 is functionality the community would want to have supported at all.
 
-Most of the conventions below are drawn from {{?I-D.thomson-github-bcp}}.
+Most of the conventions below are drawn from {{?I-D.ietf-git-using-github}}.
 
 ## Creation of GitHub Organizations {#creation}
 
@@ -111,10 +110,10 @@ another area, that AD will be an owner as well.
 consist of the working group chairs and working group secretary, if one exists.
 
 After the organization is created, the URL for the organization would be added to the
-working group's page in the datatracker.
+working group's page in the Datatracker.
 
 Steps 3 and 4 above imply that the GitHub identities of the organization owners and
-administrators are known. Recording GitHub identities in the datatracker (see
+administrators are known. Recording GitHub identities in the Datatracker (see
 &lt;https://trac.tools.ietf.org/tools/ietfdb/ticket/2548&gt;) would facilitate this. The
 person requesting the organization would need to be notified if the GitHub identities of
 any of the people meant to be owners or administrators were not available.
@@ -143,17 +142,17 @@ longer under development.
 ## Creation of Document Repository {#repo_create}
 
 There are many different scenarios and configurations where it might be useful to have
-automation and/or established administrative conventions for repositories within WG
+automation or established administrative conventions for repositories within WG
 organizations, such as:
 
    - Creating a new repository for an individual draft that is at the discretion of the
-   WG chair
+   WG chair;
 
-   - Creating a new repository for an already-adopted working group draft
+   - Creating a new repository for an already-adopted working group draft;
 
-   - Migrating an existing document repository into the WG organization
+   - Migrating an existing document repository into the WG organization; and
 
-   - Creating a new repository that contains multiple drafts
+   - Creating a new repository that contains multiple drafts.
 
 As an incremental step, this document proposes that there be a facility in the Datatracker
 interface to allow an administrator of an ietf-wg-&lt;wgname&gt; organization to request
@@ -174,7 +173,7 @@ At the time of this writing this feature was under development.
 
 # Working Group Process
 
-{{?I-D.thomson-github-bcp}} contains discussion of the different possible ways that a
+{{?I-D.ietf-git-using-github}} contains discussion of the different possible ways that a
 working group can use GitHub and the large number of decisions associated with doing so.
 This section proposes a basic set of administrative policies for working groups to follow
 and the administrative support needed to carry out those policies.
