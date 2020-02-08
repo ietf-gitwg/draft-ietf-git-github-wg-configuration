@@ -65,21 +65,21 @@ help working groups get started using GitHub in a uniform way if desired.
 
 The document is meant to spur discussion in the IETF community. If there proves to be
 rough consensus in the community in support of the proposals in this document, the
-functional requirements would need to be discussed with the IETF Tools Team, and the IETF
-Secretariat who would need to support various pieces of what is proposed herein.
+functional requirements would need to be discussed with the IETF Tools Team and the IETF
+Secretariat, who would need to support various pieces of what is proposed herein.
 
 # Administrative Process and Conventions
 
 This section specifies a proposal for an administrative process and conventions to support
 the creation and management of GitHub organizations for working groups and single-document
 repositories in a uniform way. The steps could be done manually by the IETF Secretariat or
-they could be automated. For example, see
+they could be automated. See
 &lt;https://github.com/richsalz/ietf-gh-scripts&gt; and
 &lt;https://github.com/martinthomson/i-d-template&gt; for working examples of automation
 that is in use in some working groups.
 
 In this document the question of whether processes should be manual or automated is
-deliberately left ambiguous since the first question that should be asked is whether this
+deliberately left unspecified, since the first question that should be asked is whether this
 is functionality the community would want to have supported at all.
 
 Most of the conventions below are drawn from {{?I-D.ietf-git-using-github}}.
@@ -120,8 +120,9 @@ any of the people meant to be owners or administrators were not available.
 If a working group already has an organization, it would be useful to be able
 to make it have the same management as one would get with going through the
 steps in {{creation}}. That is, it would be good to be able to run steps 3 and
-4 from {{creation}} so that the rest of the activities in this section such as
-personnel work the same for the organizations that were created on their own.
+4 from {{creation}} so that the rest of the activities in this section, such as
+personnel changes, work the same way as for organizations that were created as
+specified herein.
 
 ## Personnel Changes
 
@@ -132,18 +133,15 @@ There should likely be an API to specify that there were personnel changes.
 ## Working Group Closing
 
 When a working group is closed, the team with administrative access would be removed and
-the owner list would be returned to its initial composition. The organization summary and
-the repositories within the organization would be updated to indicate that they are no
-longer under development.
+the owner list would be returned to the Secretariat and current ADs at the time of closing.
+The organization summary and the repositories within the organization would be updated to
+indicate that they are no longer under development.
 
 ## Creation of Document Repository {#repo_create}
 
 There are many different scenarios and configurations where it might be useful to have
 automation or established administrative conventions for repositories within WG
 organizations, such as:
-
-   - Creating a new repository for an individual draft that is at the discretion of the
-   WG chair;
 
    - Creating a new repository for an already-adopted working group draft;
 
