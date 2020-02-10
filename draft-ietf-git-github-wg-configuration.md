@@ -143,6 +143,8 @@ There are many different scenarios and configurations where it might be useful t
 automation or established administrative conventions for repositories within WG
 organizations, such as:
 
+   - Creating a new repository for an individual draft (at the discretion of the WG chair);
+
    - Creating a new repository for an already-adopted working group draft;
 
    - Migrating an existing document repository into the WG organization; and
