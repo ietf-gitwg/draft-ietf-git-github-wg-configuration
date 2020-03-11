@@ -63,11 +63,6 @@ some of them are not consistent with the conventions proposed here: that is fine
 of the proposals in this document is not to require uniformity in current practice, but to
 help working groups get started using GitHub in a uniform way if desired.
 
-The document is meant to spur discussion in the IETF community. If there proves to be
-rough consensus in the community in support of the proposals in this document, the
-functional requirements would need to be discussed with the IETF Tools Team and the IETF
-Secretariat, who would need to support various pieces of what is proposed herein.
-
 # Administrative Process and Conventions
 
 This section specifies a proposal for an administrative process and conventions to support
@@ -128,7 +123,7 @@ specified herein.
 
 When there are personnel changes in the area or the working group, those changes would be
 reflected in the GitHub organization.
-There should likely be an API to specify that there were personnel changes.
+There should likely be an ability in the Datatracker to specify that there were personnel changes.
 
 ## Working Group Closing
 
