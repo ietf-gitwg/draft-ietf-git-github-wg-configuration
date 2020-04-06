@@ -38,11 +38,6 @@ groups which are considering starting to use GitHub. It does not
 mandate any processes, and does not require changes to the processes
 used by current and future working groups not using GitHub.
 
-Discussion of this document takes place on the ietf-and-github mailing list
-(ietf-and-github@ietf.org), which is archived at
-&lt;https://mailarchive.ietf.org/arch/search?email_list=ietf-and-github&gt;.
-
-
 --- middle
 
 # Introduction
@@ -61,7 +56,7 @@ proposals in this document are not directed at working groups or individuals tha
 already using GitHub to do IETF work. Practices vary among existing working groups and
 some of them are not consistent with the conventions proposed here: that is fine. The goal
 of the proposals in this document is not to require uniformity in current practice, but to
-help working groups get started using GitHub in a uniform way if desired.
+help working groups get started using GitHub in a reviewed and validated way if desired.
 
 # Administrative Process and Conventions
 
@@ -131,6 +126,8 @@ When a working group is closed, the team with administrative access would be rem
 the owner list would be returned to the Secretariat and current ADs at the time of closing.
 The organization summary and the repositories within the organization would be updated to
 indicate that they are no longer under development.
+Later, the owner list could become just the Secretariat, or might include others
+chosen by the Secretariat or the IESG.
 
 ## Creation of Document Repository {#repo_create}
 
@@ -192,7 +189,7 @@ a participant understands that changes might be made to multiple drafts at once.
 IETF working group mailing lists are automatically backed up by the IETF Secretariat, and
 the archives are publicly available. All official interactions in a WG must be archived.
 
-It would be good for working group GitHub content to
+Working group GitHub content needs to 
 also be backed up and publicly archived. This document proposes using the git protocol
 {{git-protocol}} itself for both of these tasks.
 
@@ -215,6 +212,9 @@ Secretariat back up additional repositories that are related to IETF working gro
 An attacker who can change the contents of Internet Drafts, particularly late in a working
 group's process, can possibly cause unnoticed changes in protocols that are eventually
 adopted.
+
+There is a risk of data loss due to centralization of data in one service.
+This is recognized, and mitigated by the plan described in {{backup}}.
 
 
 # IANA Considerations
